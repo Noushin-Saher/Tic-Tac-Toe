@@ -43,6 +43,7 @@ const gameDraw = () => {
 
 const resetGame = () =>{
     turno = true;
+    count=0;
     enableboxes();
     msgcontainer.classList.add("hide");
 }
